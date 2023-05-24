@@ -988,7 +988,7 @@ letter-spacing: 1px;
 .mouse {
   width: 25px;
   height: 40px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 60px;
   position: relative;
   overflow: hidden;
@@ -1002,7 +1002,7 @@ letter-spacing: 1px;
   top: 7px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: black;
+  background-color: white;
   border-radius: 50%;
   opacity: 1;
   animation: wheel 1.3s infinite;
