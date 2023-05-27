@@ -396,7 +396,6 @@ font-size: 2rem;
 }
 .projects__row {
   color: rgba(236, 195, 12, 0.904);
-
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
@@ -429,8 +428,16 @@ font-size: 2rem;
   width: 100%;
   display: block;
   object-fit: cover;
+  height: 475px;
 }
-
+.img1:hover {
+  content: url(../assets/png/digital-marketing-meeting.jpg);
+  object-fit: contain;
+}
+.img2:hover {
+  content: url(../assets/png/project\ 1\ sc.png);
+  object-fit: contain;
+}
 .projects__row-content {
   padding: 2rem 0;
   display: flex;
@@ -767,6 +774,7 @@ font-size: 2rem;
   overflow: hidden;
   margin-right: 1.5rem;
 }
+
 
 @media only screen and (max-width: 56.25em) {
   .header__logo-img-cont {
