@@ -396,14 +396,14 @@ font-size: 2rem;
   object-fit: cover;
   height: 475px;
 }
-.img1:hover {
+/* .img1:hover {
   content: url(../assets/png/digital-marketing-meeting.jpg);
   object-fit: contain;
-}
-.img2:hover {
+} */
+/* .img2:hover {
   content: url(../assets/png/project\ 1\ sc.png);
   object-fit: contain;
-}
+} */
 .projects__row-content {
   padding: 2rem 0;
   display: flex;
@@ -932,10 +932,11 @@ letter-spacing: 1px;
   }
 }
 .rotate{
-  animation: rotate 60s infinite ease-out normal both;}
+  animation: rotate 60s infinite ease-out normal both;
+}
   @keyframes scrollUp{
     from{
-      transform: translateY(150%);
+      transform: translateY(250px);
     }
     to{
       transform: translateY(50px);
@@ -944,6 +945,8 @@ letter-spacing: 1px;
   .scrollUp{
     animation: scrollUp 8s ease-in  both ;
   }
+
+ 
   @keyframes rotate{
     from{
       transform: rotate(0);

@@ -6,6 +6,23 @@ const headerHamMenuCloseBtn = document.querySelector(
   '.header__main-ham-menu-close'
 )
 const headerSmallMenuLinks = document.querySelectorAll('.header__sm-menu-link')
+const planet1 = document.querySelector('.img1')
+const planet2 = document.querySelector('.img2')
+const planet3 = document.querySelector('.img3')
+
+planet1.addEventListener('click',()=>{
+  planet1.classList.remove('rotate')
+  planet1.setAttribute('src', './assets/png/digital-marketing-meeting.jpg')
+})
+planet2.addEventListener('click',()=>{
+  planet2.classList.remove('rotate')
+  planet2.setAttribute('src', './assets/jpeg/Words Я Us-2.jpg')
+})
+planet3.addEventListener('click',()=>{
+  planet3.classList.remove('rotate')
+  planet3.setAttribute('src', './assets/jpeg/Work Day Scheduler-2.jpg')
+})
+
 
 hamMenuBtn.addEventListener('click', () => {
   if (smallMenu.classList.contains('header__sm-menu--active')) {
