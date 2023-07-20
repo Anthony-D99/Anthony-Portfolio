@@ -16,7 +16,7 @@ planet1.addEventListener('click',()=>{
 })
 planet2.addEventListener('click',()=>{
   planet2.classList.remove('rotate')
-  planet2.setAttribute('src', './assets/jpeg/Words Я Us-2.jpg')
+  planet2.setAttribute('src', './assets/png/Dungeons N Dragons Character Creator-1.png')
 })
 planet3.addEventListener('click',()=>{
   planet3.classList.remove('rotate')
