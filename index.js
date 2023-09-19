@@ -9,6 +9,7 @@ const headerSmallMenuLinks = document.querySelectorAll('.header__sm-menu-link')
 const planet1 = document.querySelector('.img1')
 const planet2 = document.querySelector('.img2')
 const planet3 = document.querySelector('.img3')
+const planet4 = document.querySelector('.img4')
 
 planet1.addEventListener('click',()=>{
   planet1.classList.remove('rotate')
@@ -22,6 +23,11 @@ planet3.addEventListener('click',()=>{
   planet3.classList.remove('rotate')
   planet3.setAttribute('src', './assets/jpeg/Work Day Scheduler-2.jpg')
 })
+planet4.addEventListener('click',()=>{
+  planet4.classList.remove('rotate')
+  planet4.setAttribute('src', './assets/png/project3.png')
+})
+
 
 
 hamMenuBtn.addEventListener('click', () => {
