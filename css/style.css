@@ -396,14 +396,6 @@ font-size: 2rem;
   object-fit: cover;
   height: 475px;
 }
-/* .img1:hover {
-  content: url(../assets/png/digital-marketing-meeting.jpg);
-  object-fit: contain;
-} */
-/* .img2:hover {
-  content: url(../assets/png/project\ 1\ sc.png);
-  object-fit: contain;
-} */
 .projects__row-content {
   padding: 2rem 0;
   display: flex;
@@ -494,7 +486,6 @@ font-size: 2rem;
 
 .project-cs-hero {
   color: #fff;
-  /* background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg); */
   background-size: cover;
   background-position: center;
   position: relative;
