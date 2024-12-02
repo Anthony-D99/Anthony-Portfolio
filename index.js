@@ -1,4 +1,3 @@
-// ---
 const hamMenuBtn = document.querySelector('.header__main-ham-menu-cont')
 const smallMenu = document.querySelector('.header__sm-menu')
 const headerHamMenuBtn = document.querySelector('.header__main-ham-menu')
@@ -17,15 +16,15 @@ planet1.addEventListener('click',()=>{
 })
 planet2.addEventListener('click',()=>{
   planet2.classList.remove('rotate')
-  planet2.setAttribute('src', './assets/png/Dungeons N Dragons Character Creator-1.png')
+  planet2.setAttribute('src', './assets/png/test.png')
 })
 planet3.addEventListener('click',()=>{
   planet3.classList.remove('rotate')
-  planet3.setAttribute('src', './assets/jpeg/Work Day Scheduler-2.jpg')
+  planet3.setAttribute('src', './assets/jpg/Work Day Scheduler-2.jpg')
 })
 planet4.addEventListener('click',()=>{
   planet4.classList.remove('rotate')
-  planet4.setAttribute('src', './assets/png/project3.png')
+  planet4.setAttribute('src', './assets/png/tykchase.png')
 })
 
 
@@ -53,7 +52,6 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
   })
 }
 
-// ---
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 
 headerLogoConatiner.addEventListener('click', () => {

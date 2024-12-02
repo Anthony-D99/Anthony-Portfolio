@@ -215,7 +215,7 @@ font-size: 2rem;
 
 .home-hero {
   color: #fff;
-  background-image:url(../assets/jpeg/starwars\ background.jpg) ;
+  background-image:url(../assets/jpg/starwars\ background.jpg) ;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -357,7 +357,7 @@ font-size: 2rem;
   margin-bottom: 4rem;
 }
 #projects{
-  background-image:url(../assets/jpeg/starwars\ background.jpg) ;
+  background-image:url(../assets/jpg/starwars\ background.jpg) ;
 
 }
 .projects__row {
@@ -391,9 +391,9 @@ font-size: 2rem;
 }
 
 .projects__row-img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
   height: 475px;
 }
 .projects__row-content {
@@ -925,6 +925,8 @@ letter-spacing: 1px;
 }
 .rotate{
   animation: rotate 60s infinite ease-out normal both;
+  margin-left: 15rem;
+
 }
   @keyframes scrollUp{
     from{
