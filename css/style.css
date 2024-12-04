@@ -116,11 +116,12 @@ button {
   color: rgba(236, 195, 12, 0.904);
   display: block;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 500;
   max-width: 80rem;
   margin: auto;
   line-height: 1.6;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -391,10 +392,11 @@ font-size: 2rem;
 }
 
 .projects__row-img {
-  max-width: 80%;
+  max-width: 81%;
   justify-content: center;
   align-items: center;
   height: 475px;
+  margin-left: 10rem;
 }
 .projects__row-content {
   padding: 2rem 0;
@@ -407,6 +409,40 @@ font-size: 2rem;
 @media only screen and (max-width: 56.25em) {
   .projects__row-content {
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .projects__row-img {
+    max-width: 81%;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    margin-right: 9rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .projects__row-img {
+    max-width: 81%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-left: 11.5rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .projects__row-img {
+    max-width: 81%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-left: 9rem;
   }
 }
 
@@ -923,11 +959,11 @@ letter-spacing: 1px;
     top: 27px;
   }
 }
+
 .rotate{
   animation: rotate 60s infinite ease-out normal both;
-  margin-left: 15rem;
-
 }
+
   @keyframes scrollUp{
     from{
       transform: translateY(250px);
